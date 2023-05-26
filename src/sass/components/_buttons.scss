@@ -1,0 +1,17 @@
+.button {   
+    @include font ($size: 17px, $height: 22px);
+    @extend %transition;
+    padding: 15px 45px;
+    text-align: center;
+    color: $button-text;
+    border-radius: 100px;
+    &:hover {
+        background: $color-primary-light;
+    }
+    &_colored {
+        background: $color-primary;
+    }
+    &_bordered {
+        border: 2px solid $color-primary;
+    }
+}

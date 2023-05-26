@@ -1,0 +1,5 @@
+h1 {
+    @include font ($size: 44px, $height: 57px);
+    color: $color-light;
+    margin: 0;
+}

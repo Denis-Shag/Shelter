@@ -1,0 +1,19 @@
+.not-only__container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 90px;
+}
+.not-only__content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 163px;
+    max-width: 460px;
+}
+.not-only__content :not(:last-child) {
+    margin-bottom: 42px;
+}
+.not-only_subtitle {
+    @include font ($size: 15px, $height: 24px);
+    @extend %font-spec;
+    color: $color-grey;
+}

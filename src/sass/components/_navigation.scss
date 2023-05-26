@@ -1,0 +1,19 @@
+.navigation {
+    display: flex;
+    @include font($size: 15px, $height: 24px);
+    @extend %font-spec;
+    gap: 35px;
+}
+.navigation_link {
+    color: $color-grey;
+    list-style-type: none;
+    cursor: pointer;
+    @extend %transition;
+&:hover {
+    color: $color-light-s;
+    text-decoration: underline;
+    text-decoration-color: $color-primary;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+}
+}

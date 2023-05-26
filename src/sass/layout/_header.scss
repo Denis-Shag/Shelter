@@ -1,0 +1,23 @@
+.header {
+    padding-top: 30px ;
+}
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+.header__logo {
+    text-decoration: none;
+    color: $color-primary;
+    @extend %font-main;
+    @include font ($size: 32px, $height: 35px);
+}
+.logo_subtitle {
+    color: $color-light;
+    @include font ($size: 13px, $height: 15px);
+    margin-top: 10px;
+}
