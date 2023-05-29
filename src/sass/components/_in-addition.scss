@@ -1,0 +1,22 @@
+.in-addition {
+    background: $color-light-l;
+}
+.in-addition__container {
+    display: flex;
+    padding: 80px 182px 100px;
+}
+.in-addition__content{
+    padding-left: 30px;
+}
+.in-addition__content :not(:last-child){
+    margin-bottom: 20px;
+}
+.in-addition_inform {
+    @include font ($style: italic, $size: 12px, $height: 18px);
+    @extend %font-spec;
+    color: $color-dark-m;
+    width: 380px;
+}
+.in-addition_card {
+    padding-right: 15px;
+}

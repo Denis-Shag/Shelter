@@ -19,5 +19,6 @@
 .logo_subtitle {
     color: $color-light;
     @include font ($size: 13px, $height: 15px);
+    @extend %font-spec;
     margin-top: 10px;
 }

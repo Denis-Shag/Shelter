@@ -1,0 +1,40 @@
+.our-friends {
+    background: $color-light-s;
+}
+.our-friends__container {
+    padding: 80px 0 100px;
+}
+.our-friends__title {
+    text-align: center;
+}
+.our-friends__content {
+    display: flex;
+}
+.our-friends__card {
+    background-color: $color-light;
+    width: 270px;
+    margin: 0 45px;
+    text-align: center;
+}
+.our-friends__card :not(:first-child) {
+    margin-bottom: 30px;
+}
+.card_signature {
+    @include font ($size: 20px, $height: 23px);
+    color: $color-dark;
+    letter-spacing: 0.06em;
+}
+.our-friends__img {
+    // ====================================ДОКРАСИТЬ //
+    border-radius: 9px 9px 0px 0px;
+}
+.our-friends__buttons {
+    text-align: center;
+    margin-top: 60px;
+}
+.button__arrow {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    
+}

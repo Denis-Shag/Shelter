@@ -1,0 +1,19 @@
+.about {
+    background: $color-light;
+}
+.about__container {
+    display: flex;
+    padding: 60px 0 100px;
+    justify-content: space-around;
+}
+.about__content {
+    max-width: 430px;
+    :not(:last-child) {
+        margin-bottom: 42px;
+    }
+}
+.about_subtitle {
+    @include font ($size: 15px, $height: 24px);
+    @extend %font-spec;
+    color: $color-dark-x2;
+}

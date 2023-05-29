@@ -10,8 +10,29 @@
     }
     &_colored {
         background: $color-primary;
+        border: none;
     }
     &_bordered {
         border: 2px solid $color-primary;
+        background: $color-light;
+    }
+    &_card {
+        @include font ($size: 17px, $height: 22px);
+        @extend %transition;
+        padding: 10px 15px;
+        display: flex;
+        color: $button-text;
+        border-radius: 100px;
+    }
+}
+
+.arrow {
+    @extend %transition;
+    padding: 18px 20px;
+    color: $button-text;
+    border-radius: 100px;
+    box-sizing: border-box;
+    &:hover {
+        background: $color-primary-light;
     }
 }

@@ -3,3 +3,19 @@ h1 {
     color: $color-light;
     margin: 0;
 }
+h2 {
+    @include font ($size: 35px, $height: 45px);
+    color: $color-dark;
+    margin: 0;
+}
+h3 {
+    @include font ($size: 35px, $height: 45px);
+    color: $color-light;
+    margin: 0;
+}
+
+h5 {
+    @include font ($size: 15px, $height: 17px);
+    color: $color-dark;
+    margin: 0;
+}

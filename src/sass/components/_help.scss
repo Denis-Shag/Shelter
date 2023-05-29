@@ -1,0 +1,32 @@
+.help__container {
+    padding: 80px 0 100px;
+    background: $color-light;
+}
+.help__title {
+    text-align: center;
+}
+.help__content {
+    padding: 60px 87px 0;
+}
+
+.help__icons {
+    text-align: center;
+    white-space: nowrap;
+}
+.help_signature {
+    @include font ($size: 20px, $height: 23px);
+    letter-spacing: 0.06em;
+    padding-top: 30px;
+    color: $color-dark;
+}
+.first-icon__container {
+    display: grid;
+    grid-template-columns: 82px 150px 60px 153px 101px;
+    column-gap: 120px;
+}
+.second-icon__container {
+    display: grid;
+    grid-template-columns: 89px 101px 165px 143px;
+    column-gap: 120px;
+    padding: 55px 84px 0;
+}
